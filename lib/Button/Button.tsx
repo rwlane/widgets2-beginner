@@ -6,5 +6,6 @@ export interface ButtonProps {
 }
 
 export const Button = (props: ButtonProps) => {
-  return <button>{props.children}</button>
+  const style = {backgroundColor: "black", color: "white"};
+  return <button style={style}>{props.children}</button>
 }

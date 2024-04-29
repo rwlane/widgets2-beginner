@@ -2,7 +2,7 @@
   "name": "widgets2-beginner",
   "version": "0.0.0",
   "type": "module",
-  "file": [
+  "files": [
     "dist"
   ],
   "main": "./dist/widgets2.umd.cjs",
